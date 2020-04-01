@@ -37,3 +37,23 @@
 //                25.0
 //            ]
         },
+        {
+            "name": "Ascend Reksa Dana Saham Eq",
+            "jenis": "Saham",
+            "imbalHasil": "7.17%",
+            "danaKelolaan": "3.89 Triliun",
+            "minPembelian": "100 Ribu",
+            "jangkaWaktu": "5 Tahun",
+            "tingkatRisiko": "Tinggi",
+            "peluncuran": "20 Feb 2007",
+            "graph":  "0.0,1.0,1.5,2.0,4.0"
+//            "graph": [
+//                0.0,
+//                1.0,
+//                1.5,
+//                2.0,
+//                4.0
+//            ]
+        }
+    ]
+}
