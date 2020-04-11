@@ -13,4 +13,5 @@ class LocalDataSource private constructor(private val mAppDao: AppDao) {
 
     fun getData(): LiveData<List<DataEntity>> = mAppDao.getData()
 
-    fun inse
+    fun insertData(data: List<DataEntity>) = mAppDao.insertData(data)
+}
