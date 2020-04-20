@@ -7,4 +7,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 
-@Entity(tableName = "
+@Entity(tableName = "dataentity")
+@Parcelize
+data class DataEntity(
+    @PrimaryKey
+    @NonNull
+    @ColumnInfo(name = "name"
