@@ -12,4 +12,10 @@ import kotlinx.parcelize.Parcelize
 data class DataEntity(
     @PrimaryKey
     @NonNull
-    @ColumnInfo(name = "name"
+    @ColumnInfo(name = "name")
+    var name: String,
+
+    @ColumnInfo(name = "jenis")
+    var jenis: String,
+
+    @ColumnInfo(name = "imbalH
