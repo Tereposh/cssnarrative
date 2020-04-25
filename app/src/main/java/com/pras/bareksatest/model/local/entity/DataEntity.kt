@@ -24,4 +24,8 @@ data class DataEntity(
     @ColumnInfo(name = "danaKelolaan")
     var danaKelolaan: String,
 
-    @ColumnI
+    @ColumnInfo(name="minPembelian")
+    var minPembelian: String,
+
+    @ColumnInfo(name = "jangkaWaktu")
+    var
