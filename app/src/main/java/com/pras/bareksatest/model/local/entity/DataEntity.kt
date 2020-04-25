@@ -18,4 +18,10 @@ data class DataEntity(
     @ColumnInfo(name = "jenis")
     var jenis: String,
 
-    @ColumnInfo(name = "imbalH
+    @ColumnInfo(name = "imbalHasil")
+    var imbalHasil: String,
+
+    @ColumnInfo(name = "danaKelolaan")
+    var danaKelolaan: String,
+
+    @ColumnI
