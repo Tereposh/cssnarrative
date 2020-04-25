@@ -28,4 +28,9 @@ data class DataEntity(
     var minPembelian: String,
 
     @ColumnInfo(name = "jangkaWaktu")
-    var
+    var jangkaWaktu: String,
+
+    @ColumnInfo(name = "tingkatRisiko")
+    var tingkatRisiko: String,
+
+    @ColumnInf
