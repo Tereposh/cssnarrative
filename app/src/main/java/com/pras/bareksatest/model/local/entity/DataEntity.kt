@@ -33,4 +33,8 @@ data class DataEntity(
     @ColumnInfo(name = "tingkatRisiko")
     var tingkatRisiko: String,
 
-    @ColumnInf
+    @ColumnInfo(name = "peluncuran")
+    val peluncuran: String,
+
+    @ColumnInfo(name = "graph")
+    val graph: Stri
