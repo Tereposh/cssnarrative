@@ -37,4 +37,5 @@ data class DataEntity(
     val peluncuran: String,
 
     @ColumnInfo(name = "graph")
-    val graph: Stri
+    val graph: String
+): Parcelable
