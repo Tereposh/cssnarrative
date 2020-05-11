@@ -8,4 +8,8 @@ import androidx.room.Query
 import com.pras.bareksatest.model.local.entity.DataEntity
 
 @Dao
-interface Ap
+interface AppDao {
+    @Query("SELECT * FROM dataentity")
+    fun getData(): LiveData<List<DataEntity>>
+
+    @
