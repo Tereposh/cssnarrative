@@ -12,4 +12,6 @@ interface AppDao {
     @Query("SELECT * FROM dataentity")
     fun getData(): LiveData<List<DataEntity>>
 
-    @
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertData(data: List<DataEntity>)
+}
