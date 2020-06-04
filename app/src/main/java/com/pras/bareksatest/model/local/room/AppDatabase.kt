@@ -8,4 +8,9 @@ import androidx.room.TypeConverters
 import com.pras.bareksatest.model.local.entity.DataEntity
 
 @Database(
-    entities = [DataEntity::clas
+    entities = [DataEntity::class],
+    version = 1,
+    exportSchema = false
+)
+@TypeConverters(Converter::class)
+abstract class AppDatabase
