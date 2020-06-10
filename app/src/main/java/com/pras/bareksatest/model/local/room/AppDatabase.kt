@@ -13,4 +13,8 @@ import com.pras.bareksatest.model.local.entity.DataEntity
     exportSchema = false
 )
 @TypeConverters(Converter::class)
-abstract class AppDatabase
+abstract class AppDatabase : RoomDatabase() {
+    abstract fun appDao(): AppDao
+
+    companion object {
+        @
