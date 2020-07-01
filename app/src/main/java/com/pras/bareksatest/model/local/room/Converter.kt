@@ -7,4 +7,7 @@ import kotlinx.serialization.json.Json
 
 class Converter {
     @TypeConverter
-    fun fromList(value
+    fun fromList(value : Array<Double>) = Json.encodeToString(value)
+
+    @TypeConverter
+    fun toList(value: String) = 
