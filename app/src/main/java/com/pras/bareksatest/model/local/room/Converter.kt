@@ -10,4 +10,5 @@ class Converter {
     fun fromList(value : Array<Double>) = Json.encodeToString(value)
 
     @TypeConverter
-    fun toList(value: String) = 
+    fun toList(value: String) = Json.decodeFromString<Array<Double>>(value)
+}
