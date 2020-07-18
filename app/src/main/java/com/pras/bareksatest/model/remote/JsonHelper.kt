@@ -9,4 +9,7 @@ import java.io.IOException
 import kotlin.math.min
 
 class JsonHelper(private val context: Context) {
-    private fun parsingFileToString(fileName: String): 
+    private fun parsingFileToString(fileName: String): String? {
+        return try {
+            val `is` = context.assets.open(fileName)
+            val buffer = B
