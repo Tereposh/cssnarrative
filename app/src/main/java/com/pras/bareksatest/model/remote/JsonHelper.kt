@@ -23,4 +23,6 @@ class JsonHelper(private val context: Context) {
         }
     }
 
-    fun
+    fun loadData(): List<DataResponse> {
+        val list = ArrayList<DataResponse>()
+        tr
