@@ -17,4 +17,10 @@ class JsonHelper(private val context: Context) {
             `is`.close()
             String(buffer)
 
-       
+        } catch (ex: IOException) {
+            ex.printStackTrace()
+            null
+        }
+    }
+
+    fun
