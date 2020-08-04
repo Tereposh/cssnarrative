@@ -25,4 +25,6 @@ class JsonHelper(private val context: Context) {
 
     fun loadData(): List<DataResponse> {
         val list = ArrayList<DataResponse>()
-        tr
+        try {
+            val responseObject =
+                JSONObject(parsingFileToString("BareksaTestDummyData.json").toStr
