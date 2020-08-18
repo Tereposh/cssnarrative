@@ -29,4 +29,8 @@ class JsonHelper(private val context: Context) {
             val responseObject =
                 JSONObject(parsingFileToString("BareksaTestDummyData.json").toString())
             val listArray = responseObject.getJSONArray("items")
-            for (i in 0 until listArray.length())
+            for (i in 0 until listArray.length()) {
+                val dataList = listArray.getJSONObject(i)
+
+                val name = dataList.getString("name")
+         
