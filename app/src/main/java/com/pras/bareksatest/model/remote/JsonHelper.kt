@@ -33,4 +33,5 @@ class JsonHelper(private val context: Context) {
                 val dataList = listArray.getJSONObject(i)
 
                 val name = dataList.getString("name")
-         
+                val jenis = dataList.getString("jenis")
+                val imbalHasil = dataList.getString("imbalHa
