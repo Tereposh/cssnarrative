@@ -36,4 +36,6 @@ class JsonHelper(private val context: Context) {
                 val jenis = dataList.getString("jenis")
                 val imbalHasil = dataList.getString("imbalHasil")
                 val danaKelolaan = dataList.getString("danaKelolaan")
-                val minPembelian = dataList.getStr
+                val minPembelian = dataList.getString("minPembelian")
+                val jangkaWaktu = dataList.getString("jangkaWaktu")
+                val tingkatRisiko = data
