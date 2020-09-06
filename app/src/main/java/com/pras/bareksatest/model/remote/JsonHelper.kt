@@ -43,4 +43,6 @@ class JsonHelper(private val context: Context) {
                 val graph = dataList.getString("graph")
 //                val arr = dataList.getJSONArray("graph") )
 
-//     
+//                var graph = arrayOf(null)
+//                var graph: Array<Double>? = null
+//    
