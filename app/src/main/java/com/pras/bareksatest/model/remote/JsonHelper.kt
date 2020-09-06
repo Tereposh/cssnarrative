@@ -45,4 +45,8 @@ class JsonHelper(private val context: Context) {
 
 //                var graph = arrayOf(null)
 //                var graph: Array<Double>? = null
-//    
+//                for (n in 0 until arr.length()) {
+//                    graph?.set(n, arr.getDouble(n))
+//                }
+
+       
