@@ -40,4 +40,7 @@ class JsonHelper(private val context: Context) {
                 val jangkaWaktu = dataList.getString("jangkaWaktu")
                 val tingkatRisiko = dataList.getString("tingkatRisiko")
                 val peluncuran = dataList.getString("peluncuran")
-       
+                val graph = dataList.getString("graph")
+//                val arr = dataList.getJSONArray("graph") )
+
+//     
