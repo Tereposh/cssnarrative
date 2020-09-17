@@ -49,4 +49,6 @@ class JsonHelper(private val context: Context) {
 //                    graph?.set(n, arr.getDouble(n))
 //                }
 
-       
+                val dataResponse = DataResponse(
+                    name,
+                    jen
