@@ -51,4 +51,7 @@ class JsonHelper(private val context: Context) {
 
                 val dataResponse = DataResponse(
                     name,
-                    jen
+                    jenis,
+                    imbalHasil,
+                    danaKelolaan,
+                    minPembeli
