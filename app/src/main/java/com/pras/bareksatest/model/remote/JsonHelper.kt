@@ -58,4 +58,7 @@ class JsonHelper(private val context: Context) {
                     jangkaWaktu,
                     tingkatRisiko,
                     peluncuran,
-             
+                    graph
+                )
+                Log.d("graphArray", dataResponse.toString())
+                l
