@@ -61,4 +61,8 @@ class JsonHelper(private val context: Context) {
                     graph
                 )
                 Log.d("graphArray", dataResponse.toString())
-                l
+                list.add(dataResponse)
+            }
+        } catch (e: JSONException) {
+            e.printStackTrace()
+     
