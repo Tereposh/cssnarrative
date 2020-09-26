@@ -54,4 +54,8 @@ class JsonHelper(private val context: Context) {
                     jenis,
                     imbalHasil,
                     danaKelolaan,
-                    minPembeli
+                    minPembelian,
+                    jangkaWaktu,
+                    tingkatRisiko,
+                    peluncuran,
+             
