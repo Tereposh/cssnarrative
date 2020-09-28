@@ -15,4 +15,7 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
         private const val SERVICE_LATENCY_IN_MILIS: Long = 2000
 
         @Volatile
-        pri
+        private var instance: RemoteDataSource? = null
+
+        fun getInstance(helper: JsonHelper): RemoteDataSource =
+        
