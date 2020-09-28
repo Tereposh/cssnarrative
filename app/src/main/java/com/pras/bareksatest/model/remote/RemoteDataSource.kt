@@ -11,4 +11,8 @@ import com.pras.bareksatest.utils.EspressoIdlingResource
 class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
     private val handler = Handler(Looper.getMainLooper())
 
-    companio
+    companion object {
+        private const val SERVICE_LATENCY_IN_MILIS: Long = 2000
+
+        @Volatile
+        pri
