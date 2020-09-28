@@ -8,4 +8,7 @@ import androidx.lifecycle.MutableLiveData
 import com.pras.bareksatest.model.remote.response.DataResponse
 import com.pras.bareksatest.utils.EspressoIdlingResource
 
-class RemoteDataSource private constructor(pr
+class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
+    private val handler = Handler(Looper.getMainLooper())
+
+    companio
