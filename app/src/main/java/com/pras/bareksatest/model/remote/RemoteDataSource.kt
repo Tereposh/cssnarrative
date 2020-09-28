@@ -18,4 +18,5 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
         private var instance: RemoteDataSource? = null
 
         fun getInstance(helper: JsonHelper): RemoteDataSource =
-        
+            instance ?: synchronized(this) {
+                instance ?: RemoteDataSource(helper).apply { inst
