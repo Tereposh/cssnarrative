@@ -31,4 +31,5 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
         handler.postDelayed(
             {
                 resultDataList.value = ApiResponse.success(jsonHelper.loadData())
- 
+                Log.d("graphArrayRemote3", resultDataList.value?.body.toString())
+                if (!
