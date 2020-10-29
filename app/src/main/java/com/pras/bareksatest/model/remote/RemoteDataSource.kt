@@ -28,4 +28,7 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
     fun getData(): LiveData<ApiResponse<List<DataResponse>>> {
         EspressoIdlingResource.increment()
         val resultDataList = MutableLiveData<ApiResponse<List<DataResponse>>>()
-        handler.postDe
+        handler.postDelayed(
+            {
+                resultDataList.value = ApiResponse.success(jsonHelper.loadData())
+ 
