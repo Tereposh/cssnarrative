@@ -23,4 +23,7 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
             }
     }
 
-    val dataResponse = MutableLiveData<List<DataResp
+    val dataResponse = MutableLiveData<List<DataResponse>>()
+
+    fun getData(): LiveData<ApiResponse<List<DataResponse>>> {
+        EspressoIdlingResource.inc
