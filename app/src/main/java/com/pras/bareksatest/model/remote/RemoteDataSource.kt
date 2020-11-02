@@ -33,4 +33,8 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
                 resultDataList.value = ApiResponse.success(jsonHelper.loadData())
                 Log.d("graphArrayRemote3", resultDataList.value?.body.toString())
                 if (!EspressoIdlingResource.getEspressoIdlingResource().isIdleNow) {
-                    EspressoIdlingRes
+                    EspressoIdlingResource.decrement()
+                }
+            }, SERVICE_LATENCY_IN_MILIS
+        )
+        Lo
