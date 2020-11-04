@@ -4,4 +4,8 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data 
+data class DataResponse(
+    val name: String,
+    val jenis: String,
+    val imbalHasil: String,
+    val 
