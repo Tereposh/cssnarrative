@@ -37,4 +37,5 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
                 }
             }, SERVICE_LATENCY_IN_MILIS
         )
-        Lo
+        Log.d("graphArrayRemote", jsonHelper.loadData().toString())
+        Log.d("graphArrayRemote2", resultDataList.va
