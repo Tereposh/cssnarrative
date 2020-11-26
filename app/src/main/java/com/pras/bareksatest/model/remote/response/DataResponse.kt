@@ -8,4 +8,7 @@ data class DataResponse(
     val name: String,
     val jenis: String,
     val imbalHasil: String,
-    val 
+    val danaKelolaan: String,
+    val minPembelian: String,
+    val jangkaWaktu: String,
+    val tingkatRisiko: Strin
