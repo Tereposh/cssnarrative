@@ -50,3 +50,25 @@ class DataRepo private constructor(
             override fun saveCallResult(data: List<DataResponse>) {
                 val dataList = ArrayList<DataEntity>()
                 for (response in data) {
+                    Log.d("graphArrayRepoo", "Response not null")
+                    val data = DataEntity(
+                        response.name,
+                        response.jenis,
+                        response.imbalHasil,
+                        response.danaKelolaan,
+                        response.minPembelian,
+                        response.jangkaWaktu,
+                        response.tingkatRisiko,
+                        response.peluncuran,
+                        response.graph
+                    )
+                    dataList.add(data)
+                    Log.d("graphArrayRepoo", response.toString())
+                }
+                localDataSource.insertData(dataList)
+                Log.d("graphArrayRepo", dataList.toString())
+            }
+        }.asLiveData()
+    }
+
+}
