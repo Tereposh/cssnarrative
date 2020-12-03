@@ -11,4 +11,7 @@ data class DataResponse(
     val danaKelolaan: String,
     val minPembelian: String,
     val jangkaWaktu: String,
-    val tingkatRisiko: Strin
+    val tingkatRisiko: String,
+    val peluncuran: String,
+    val graph: String
+): Parcelable
