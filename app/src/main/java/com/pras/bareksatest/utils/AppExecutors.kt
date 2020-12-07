@@ -12,4 +12,9 @@ class AppExecutors@VisibleForTesting constructor(
     private val mainThread: Executor
 ) {
 
-    companion
+    companion object {
+        private const val THREAD_COUNT = 3
+    }
+
+    constructor() : this(
+ 
