@@ -19,4 +19,11 @@ class AppExecutors@VisibleForTesting constructor(
     constructor() : this(
         Executors.newSingleThreadExecutor(),
         Executors.newFixedThreadPool(THREAD_COUNT),
-    
+        MainThreadExecutor()
+    )
+
+    fun diskIO(): Executor = diskIO
+
+    fun networkIO(): Executor = networkIO
+
+    fun mainTh
