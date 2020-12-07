@@ -17,4 +17,6 @@ class AppExecutors@VisibleForTesting constructor(
     }
 
     constructor() : this(
- 
+        Executors.newSingleThreadExecutor(),
+        Executors.newFixedThreadPool(THREAD_COUNT),
+    
