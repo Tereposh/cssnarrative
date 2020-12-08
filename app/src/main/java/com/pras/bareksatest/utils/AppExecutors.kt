@@ -29,4 +29,7 @@ class AppExecutors@VisibleForTesting constructor(
     fun mainThread(): Executor = mainThread
 
     private class MainThreadExecutor : Executor {
-        private 
+        private val mainThreadHandler = Handler(Looper.getMainLooper())
+
+        override fun execute(command: Runnable) {
+     
