@@ -26,4 +26,7 @@ class AppExecutors@VisibleForTesting constructor(
 
     fun networkIO(): Executor = networkIO
 
-    fun mainTh
+    fun mainThread(): Executor = mainThread
+
+    private class MainThreadExecutor : Executor {
+        private 
