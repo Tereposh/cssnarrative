@@ -11,4 +11,8 @@ object EspressoIdlingResource {
         espressoTestIdlingResource.increment()
     }
 
-    fun
+    fun decrement() {
+        espressoTestIdlingResource.decrement()
+    }
+
+    fun getEspressoIdlingResource(): IdlingResource {
