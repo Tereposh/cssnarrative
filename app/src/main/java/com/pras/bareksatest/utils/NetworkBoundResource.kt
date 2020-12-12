@@ -4,4 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import com.pras.bareksatest.model.remote.ApiResponse
 import com.pras.bareksatest.model.remote.StatusResponse
-import 
+import com.pras.bareksatest.vo.Resource
+
+abstract class NetworkBoundResource<ResultType, RequestType>(priva
