@@ -18,4 +18,7 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
 
         result.addSource(dbSource) { data ->
             result.removeSource(dbSource)
-         
+            if (shouldFetch(data)) {
+                fetchFromNetwork(dbSource)
+            } else {
+           
