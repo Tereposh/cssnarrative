@@ -14,4 +14,8 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
         result.value = Resource.loading(null)
 
         @Suppress("LeakingThis")
-        val dbSource 
+        val dbSource = loadFromDB()
+
+        result.addSource(dbSource) { data ->
+            result.removeSource(dbSource)
+         
