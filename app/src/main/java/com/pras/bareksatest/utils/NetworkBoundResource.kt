@@ -22,4 +22,10 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
                 fetchFromNetwork(dbSource)
             } else {
                 result.addSource(dbSource) { newData ->
-                    result.value = Resource.succe
+                    result.value = Resource.success(newData)
+                }
+            }
+        }
+    }
+
+    protected fun onFetch
