@@ -40,4 +40,7 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
 
     private fun fetchFromNetwork(dbSource: LiveData<ResultType>) {
 
-        val apiResponse
+        val apiResponse = createCall()
+
+        result.addSource(dbSource) { newData ->
+            result.value = Resource.loading(newData)
