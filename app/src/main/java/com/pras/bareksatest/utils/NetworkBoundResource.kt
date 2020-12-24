@@ -32,4 +32,6 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
 
     protected abstract fun loadFromDB(): LiveData<ResultType>
 
-    protected
+    protected abstract fun shouldFetch(data: ResultType?): Boolean
+
+    protected abstract 
