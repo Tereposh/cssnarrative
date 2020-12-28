@@ -53,4 +53,6 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
                     mExecutors.diskIO().execute {
                         saveCallResult(response.body)
                         mExecutors.mainThread().execute {
-                            result.add
+                            result.addSource(loadFromDB()) { newData ->
+                                result.value = Resource.success(newData)
+            
