@@ -51,4 +51,6 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
             when (response.status) {
                 StatusResponse.SUCCESS ->
                     mExecutors.diskIO().execute {
-                        saveCallResult(
+                        saveCallResult(response.body)
+                        mExecutors.mainThread().execute {
+                            result.add
