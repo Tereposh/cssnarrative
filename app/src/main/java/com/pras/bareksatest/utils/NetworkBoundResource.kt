@@ -73,4 +73,5 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
         }
     }
 
-    fun asLiveData(): Live
+    fun asLiveData(): LiveData<Resource<ResultType>> = result
+}
