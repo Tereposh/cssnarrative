@@ -58,4 +58,6 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
                             }
                         }
                     }
-                StatusResponse.EMPTY -> mExecutor
+                StatusResponse.EMPTY -> mExecutors.mainThread().execute {
+                    result.addSource(loadFromDB()) { newData ->
+        
