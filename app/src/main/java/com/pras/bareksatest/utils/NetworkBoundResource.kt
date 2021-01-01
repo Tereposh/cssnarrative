@@ -66,4 +66,11 @@ abstract class NetworkBoundResource<ResultType, RequestType>(private val mExecut
                 StatusResponse.ERROR -> {
                     onFetchFailed()
                     result.addSource(dbSource) { newData ->
-                        result.value = Resource.error(response.mess
+                        result.value = Resource.error(response.message, newData)
+                    }
+                }
+            }
+        }
+    }
+
+    fun asLiveData(): Live
