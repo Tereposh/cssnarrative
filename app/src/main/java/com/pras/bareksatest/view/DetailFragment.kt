@@ -35,4 +35,9 @@ class DetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, co
+        return inflater.inflate(R.layout.fragment_detail, container, false)
+    }
+
+    companion object {
+        /**
+         * Use this factory method to crea
