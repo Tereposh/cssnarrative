@@ -31,4 +31,7 @@ class DetailFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInfla
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the
