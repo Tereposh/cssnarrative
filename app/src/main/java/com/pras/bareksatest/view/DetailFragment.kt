@@ -18,4 +18,6 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class DetailFragment : Fragment() {
-    // TOD
+    // TODO: Rename and change types of parameters
+    private var param1: String? = null
+    private var par
