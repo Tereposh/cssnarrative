@@ -45,4 +45,7 @@ class DetailFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragmen
+         * @return A new instance of fragment DetailFragment.
+         */
+        // TODO: Rename and change types and number of parameters
+       
