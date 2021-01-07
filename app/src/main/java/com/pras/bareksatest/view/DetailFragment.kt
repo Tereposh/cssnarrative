@@ -51,4 +51,5 @@ class DetailFragment : Fragment() {
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             DetailFragment().apply {
- 
+                arguments = Bundle().apply {
+                    putString(ARG_PARAM1, p
