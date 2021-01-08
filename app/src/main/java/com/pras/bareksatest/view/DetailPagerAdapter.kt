@@ -22,3 +22,10 @@ class DetailPagerAdapter(activity: AppCompatActivity, data:Bundle): FragmentStat
             3 -> fragment = DetailFragment()
             4 -> fragment = DetailFragment()
             5 -> fragment = DetailFragment()
+            6 -> fragment = DetailFragment()
+        }
+        fragment?.arguments = this.fragmentBundle
+        return fragment as Fragment
+    }
+
+}
