@@ -11,4 +11,6 @@ import com.github.aachartmodel.aainfographics.aachartcreator.AAChartModel
 import com.github.aachartmodel.aainfographics.aachartcreator.AAChartType
 import com.github.aachartmodel.aainfographics.aachartcreator.AASeriesElement
 import com.pras.bareksatest.R
-import com.pras.bareksatest.databindin
+import com.pras.bareksatest.databinding.FragmentImbalHasilBinding
+import com.pras.bareksatest.viewModel.GetDataViewModel
+import c
