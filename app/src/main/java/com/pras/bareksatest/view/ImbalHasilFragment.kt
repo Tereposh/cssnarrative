@@ -29,4 +29,7 @@ class ImbalHasilFragment : Fragment() {
 
     private var _binding: FragmentImbalHasilBinding? = null
     private val binding get() = _binding!!
-    private la
+    private lateinit var viewModel: GetDataViewModel
+
+    // TODO: Rename and change types of parameters
+    private v
