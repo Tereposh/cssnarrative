@@ -32,4 +32,7 @@ class ImbalHasilFragment : Fragment() {
     private lateinit var viewModel: GetDataViewModel
 
     // TODO: Rename and change types of parameters
-    private v
+    private var param1: String? = null
+    private var param2: String? = null
+
+    override fun onCreate(savedInstanceState: Bu
