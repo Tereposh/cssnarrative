@@ -27,4 +27,6 @@ private const val ARG_PARAM2 = "param2"
  */
 class ImbalHasilFragment : Fragment() {
 
-    p
+    private var _binding: FragmentImbalHasilBinding? = null
+    private val binding get() = _binding!!
+    private la
