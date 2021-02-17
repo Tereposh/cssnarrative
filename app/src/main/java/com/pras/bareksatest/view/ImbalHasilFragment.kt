@@ -48,4 +48,7 @@ class ImbalHasilFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_imbal
+        return inflater.inflate(R.layout.fragment_imbal_hasil, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceSta
