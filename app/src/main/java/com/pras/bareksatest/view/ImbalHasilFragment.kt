@@ -54,4 +54,5 @@ class ImbalHasilFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        _binding = Fragmen
+        _binding = FragmentImbalHasilBinding.bind(view)
+        val factory = GetDataViewModelFactory.getInstance(r
