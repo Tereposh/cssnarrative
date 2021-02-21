@@ -51,4 +51,7 @@ class ImbalHasilFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_imbal_hasil, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceSta
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        _binding = Fragmen
