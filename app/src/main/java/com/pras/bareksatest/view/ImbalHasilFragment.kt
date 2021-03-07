@@ -55,4 +55,7 @@ class ImbalHasilFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         _binding = FragmentImbalHasilBinding.bind(view)
-        val factory = GetDataViewModelFactory.getInstance(r
+        val factory = GetDataViewModelFactory.getInstance(requireActivity())
+        viewModel = ViewModelProvider(this, factory)[GetDataViewModel::class.java]
+
+    
