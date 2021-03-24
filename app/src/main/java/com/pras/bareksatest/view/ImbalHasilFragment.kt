@@ -58,4 +58,5 @@ class ImbalHasilFragment : Fragment() {
         val factory = GetDataViewModelFactory.getInstance(requireActivity())
         viewModel = ViewModelProvider(this, factory)[GetDataViewModel::class.java]
 
-    
+        viewModel.getData().observe(viewLifecycleOwner,{
+            Log.d("graphArrayView", it.data.toSt
