@@ -67,4 +67,6 @@ class ImbalHasilFragment : Fragment() {
 //                val name = it.data?.get(0)?.name
 //                Log.d("arr", it.data!!.size.toString())
 
-                val
+                val aaChartModel: AAChartModel = AAChartModel()
+                    .chartType(AAChartType.Spline)
+            
