@@ -64,4 +64,7 @@ class ImbalHasilFragment : Fragment() {
 
                 val arr = it.data?.get(0)?.graph?.split(",")?.toTypedArray()
                 Log.d("graphArrayViewArr", arr?.get(0).toString())
-//       
+//                val name = it.data?.get(0)?.name
+//                Log.d("arr", it.data!!.size.toString())
+
+                val
