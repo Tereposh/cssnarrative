@@ -69,4 +69,6 @@ class ImbalHasilFragment : Fragment() {
 
                 val aaChartModel: AAChartModel = AAChartModel()
                     .chartType(AAChartType.Spline)
-            
+                    .dataLabelsEnabled(false)
+                    .backgroundColor("#FFFFFF")
+                    .ca
