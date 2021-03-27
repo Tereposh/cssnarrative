@@ -62,4 +62,6 @@ class ImbalHasilFragment : Fragment() {
             Log.d("graphArrayView", it.data.toString())
             binding.apply {
 
-                val arr = it.data?.get(0)?.graph?.spl
+                val arr = it.data?.get(0)?.graph?.split(",")?.toTypedArray()
+                Log.d("graphArrayViewArr", arr?.get(0).toString())
+//       
