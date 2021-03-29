@@ -71,4 +71,5 @@ class ImbalHasilFragment : Fragment() {
                     .chartType(AAChartType.Spline)
                     .dataLabelsEnabled(false)
                     .backgroundColor("#FFFFFF")
-                    .ca
+                    .categories(arrayOf("Jul 19", "Okt 19", "Jan 20", "Apr 20", "Jul 20"))
+                    .legendEnabled(
