@@ -72,4 +72,7 @@ class ImbalHasilFragment : Fragment() {
                     .dataLabelsEnabled(false)
                     .backgroundColor("#FFFFFF")
                     .categories(arrayOf("Jul 19", "Okt 19", "Jan 20", "Apr 20", "Jul 20"))
-                    .legendEnabled(
+                    .legendEnabled(false)
+                    .yAxisMax(40f)
+                    .yAxisTitle("")
+                    .series
