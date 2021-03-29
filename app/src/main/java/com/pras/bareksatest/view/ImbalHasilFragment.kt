@@ -75,4 +75,7 @@ class ImbalHasilFragment : Fragment() {
                     .legendEnabled(false)
                     .yAxisMax(40f)
                     .yAxisTitle("")
-                    .series
+                    .series(
+                        arrayOf(
+                            AASeriesElement()
+                       
