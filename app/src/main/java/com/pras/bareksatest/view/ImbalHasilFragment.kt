@@ -89,4 +89,7 @@ class ImbalHasilFragment : Fragment() {
                                 .name(it.data?.get(2)?.name)
                                 .data(arrayOf(0.0, 1.0, 1.5, 2.0, 4.0))
                                 .color("#789FBB")
-                      
+                        )
+                    )
+
+                chartView.aa_drawChartWithChartModel(aaChartMod
