@@ -83,4 +83,6 @@ class ImbalHasilFragment : Fragment() {
                                 .color("#788D68"),
                             AASeriesElement()
                                 .name(it.data?.get(1)?.name)
-                                .data(arrayOf(0.0, 5.0, 10.0, 15.
+                                .data(arrayOf(0.0, 5.0, 10.0, 15.0, 25.0))
+                                .color("#67568B"),
+                            AASeriesElem
