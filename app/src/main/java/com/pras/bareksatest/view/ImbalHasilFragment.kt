@@ -92,4 +92,8 @@ class ImbalHasilFragment : Fragment() {
                         )
                     )
 
-                chartView.aa_drawChartWithChartModel(aaChartMod
+                chartView.aa_drawChartWithChartModel(aaChartModel)
+
+//                Name
+                tvName1.text = it.data?.get(0)?.name
+                tvName
