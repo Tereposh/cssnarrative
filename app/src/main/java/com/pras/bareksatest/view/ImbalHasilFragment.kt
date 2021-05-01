@@ -109,4 +109,6 @@ class ImbalHasilFragment : Fragment() {
                 tvImbaHasil2.text = it.data?.get(1)?.imbalHasil
                 tvImbaHasil3.text = it.data?.get(2)?.imbalHasil
 
-//         
+//                Dana kelolaan
+                tvDanaKelolaan1.text = it.data?.get(0)?.danaKelolaan
+           
