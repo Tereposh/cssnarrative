@@ -96,4 +96,7 @@ class ImbalHasilFragment : Fragment() {
 
 //                Name
                 tvName1.text = it.data?.get(0)?.name
-                tvName
+                tvName2.text = it.data?.get(1)?.name
+                tvName3.text = it.data?.get(2)?.name
+
+//                Jenis reksa
