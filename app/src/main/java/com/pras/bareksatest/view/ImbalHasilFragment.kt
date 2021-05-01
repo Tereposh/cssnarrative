@@ -101,4 +101,8 @@ class ImbalHasilFragment : Fragment() {
 
 //                Jenis reksa dana
                 tvJenisReksaDana1.text = it.data?.get(0)?.jenis
-                tvJenisReksaDana2.text = it.da
+                tvJenisReksaDana2.text = it.data?.get(1)?.jenis
+                tvJenisReksaDana3.text = it.data?.get(2)?.jenis
+
+//                Imbal hasil
+        
