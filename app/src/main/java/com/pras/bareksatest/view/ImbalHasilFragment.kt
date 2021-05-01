@@ -99,4 +99,6 @@ class ImbalHasilFragment : Fragment() {
                 tvName2.text = it.data?.get(1)?.name
                 tvName3.text = it.data?.get(2)?.name
 
-//                Jenis reksa
+//                Jenis reksa dana
+                tvJenisReksaDana1.text = it.data?.get(0)?.jenis
+                tvJenisReksaDana2.text = it.da
