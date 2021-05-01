@@ -112,4 +112,7 @@ class ImbalHasilFragment : Fragment() {
 //                Dana kelolaan
                 tvDanaKelolaan1.text = it.data?.get(0)?.danaKelolaan
                 tvDanaKelolaan2.text = it.data?.get(1)?.danaKelolaan
-                tvDanaKelolaan3.text = it.data?.get(2)?.da
+                tvDanaKelolaan3.text = it.data?.get(2)?.danaKelolaan
+
+//                Min.Pembelian
+                tvMinPembelian1.text = it.data?.get
