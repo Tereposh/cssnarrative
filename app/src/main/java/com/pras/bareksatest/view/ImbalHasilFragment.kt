@@ -106,4 +106,7 @@ class ImbalHasilFragment : Fragment() {
 
 //                Imbal hasil
                 tvImbaHasil1.text = it.data?.get(0)?.imbalHasil
-                tvImbaHasil2.text = it.data?
+                tvImbaHasil2.text = it.data?.get(1)?.imbalHasil
+                tvImbaHasil3.text = it.data?.get(2)?.imbalHasil
+
+//         
