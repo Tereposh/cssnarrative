@@ -120,4 +120,5 @@ class ImbalHasilFragment : Fragment() {
                 tvMinPembelian3.text = it.data?.get(2)?.minPembelian
 
 //                Jangka waktu
-                tvJangka
+                tvJangkaWaktu1.text = it.data?.get(0)?.jangkaWaktu
+                tvJangkaWaktu2.text = it.data
