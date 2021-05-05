@@ -121,4 +121,7 @@ class ImbalHasilFragment : Fragment() {
 
 //                Jangka waktu
                 tvJangkaWaktu1.text = it.data?.get(0)?.jangkaWaktu
-                tvJangkaWaktu2.text = it.data
+                tvJangkaWaktu2.text = it.data?.get(1)?.jangkaWaktu
+                tvJangkaWaktu3.text = it.data?.get(2)?.jangkaWaktu
+
+//   
