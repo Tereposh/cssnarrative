@@ -130,4 +130,6 @@ class ImbalHasilFragment : Fragment() {
                 tvTingkatRisiko3.text = it.data?.get(2)?.tingkatRisiko
 
 //                Peluncuran
-                tvPeluncuran1.text = it.data?.get(0
+                tvPeluncuran1.text = it.data?.get(0)?.peluncuran
+                tvPeluncuran2.text = it.data?.get(1)?.peluncuran
+                tvPelun
