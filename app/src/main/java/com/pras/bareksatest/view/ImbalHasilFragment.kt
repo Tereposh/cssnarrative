@@ -132,4 +132,9 @@ class ImbalHasilFragment : Fragment() {
 //                Peluncuran
                 tvPeluncuran1.text = it.data?.get(0)?.peluncuran
                 tvPeluncuran2.text = it.data?.get(1)?.peluncuran
-                tvPelun
+                tvPeluncuran3.text = it.data?.get(2)?.peluncuran
+            }
+        })
+    }
+
+    companion object
