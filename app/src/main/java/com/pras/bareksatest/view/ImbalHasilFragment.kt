@@ -144,4 +144,6 @@ class ImbalHasilFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new
+         * @return A new instance of fragment ImbalHasilFragment.
+         */
+        // TODO: Rename and change types a
