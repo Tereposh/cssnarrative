@@ -28,4 +28,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding
+        setContentView(binding.root)
+
+        val bundle = Bundle()
+        val mainPagerAdapter = MainPagerAdapter(this, bundle)
+        b
