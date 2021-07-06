@@ -10,4 +10,6 @@ import com.pras.bareksatest.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    //
+    //    lateinit var lineList: ArrayList<Entry>
+//    lateinit var lineDataSet: LineDataSet
+//    latein
