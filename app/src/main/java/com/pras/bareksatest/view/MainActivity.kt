@@ -14,4 +14,8 @@ class MainActivity : AppCompatActivity() {
 //    lateinit var lineDataSet: LineDataSet
 //    lateinit var lineData: LineData
     lateinit var binding: ActivityMainBinding
-//    private var aaChartModel: AAChart
+//    private var aaChartModel: AAChartModel()
+//    private var aaChartView: AAChartView? = null
+
+    companion object {
+        @String
