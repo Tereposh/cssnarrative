@@ -32,4 +32,5 @@ class MainActivity : AppCompatActivity() {
 
         val bundle = Bundle()
         val mainPagerAdapter = MainPagerAdapter(this, bundle)
-        b
+        binding.mainPager.adapter = mainPagerAdapter
+        TabLayoutMediator(binding.tabLayout, binding.mainPag
