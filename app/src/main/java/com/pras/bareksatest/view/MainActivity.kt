@@ -22,3 +22,8 @@ class MainActivity : AppCompatActivity() {
         private val TAB_TITLES = intArrayOf(
             R.string.mainTab_text_1,
             R.string.mainTab_text_2
+        )
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceSt
