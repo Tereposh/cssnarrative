@@ -12,4 +12,6 @@ class MainActivity : AppCompatActivity() {
 
     //    lateinit var lineList: ArrayList<Entry>
 //    lateinit var lineDataSet: LineDataSet
-//    latein
+//    lateinit var lineData: LineData
+    lateinit var binding: ActivityMainBinding
+//    private var aaChartModel: AAChart
