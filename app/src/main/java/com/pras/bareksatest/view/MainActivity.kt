@@ -35,4 +35,7 @@ class MainActivity : AppCompatActivity() {
         binding.mainPager.adapter = mainPagerAdapter
         TabLayoutMediator(binding.tabLayout, binding.mainPager) { tab, position ->
             tab.text = resources.getString(TAB_TITLES[position])
-        }.at
+        }.attach()
+
+    }
+}
