@@ -6,4 +6,5 @@ import com.pras.bareksatest.model.local.entity.DataEntity
 import com.pras.bareksatest.model.repository.DataRepo
 import com.pras.bareksatest.vo.Resource
 
-cla
+class GetDataViewModel(private val repo: DataRepo): ViewModel() {
+    fun getData(): LiveData<Resource<List<DataEntity>>
