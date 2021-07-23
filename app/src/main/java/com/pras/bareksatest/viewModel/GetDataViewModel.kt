@@ -7,4 +7,5 @@ import com.pras.bareksatest.model.repository.DataRepo
 import com.pras.bareksatest.vo.Resource
 
 class GetDataViewModel(private val repo: DataRepo): ViewModel() {
-    fun getData(): LiveData<Resource<List<DataEntity>>
+    fun getData(): LiveData<Resource<List<DataEntity>>> = repo.getData()
+}
