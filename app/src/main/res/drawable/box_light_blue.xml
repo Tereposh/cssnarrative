@@ -5,3 +5,7 @@
         android:bottomRightRadius="2dp"
         android:topLeftRadius="2dp"
         android:topRightRadius="2dp"
+        android:bottomLeftRadius="2dp"/>
+    <padding android:right="8dp" />
+    <padding android:left="8dp" />
+    <
