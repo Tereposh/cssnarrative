@@ -15,4 +15,7 @@
 
             android:layout_width="150dp"
             android:layout_height="25dp"
-            android:layou
+            android:layout_marginTop="8dp"
+            android:background="@drawable/box_light_gray"
+            android:orientation="horizontal"
+    
