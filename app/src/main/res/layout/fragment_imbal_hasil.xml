@@ -42,4 +42,8 @@
                 android:layout_marginStart="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/tv_1"
-                app:layout_constr
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="50%" />
+
+            <TextView
+                
