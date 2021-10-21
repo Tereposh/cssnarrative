@@ -60,4 +60,5 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-  
+        <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView
+            android:id="@+i
