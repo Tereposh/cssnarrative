@@ -63,4 +63,6 @@
         <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView
             android:id="@+id/chart_view"
             android:layout_width="match_parent"
-            android:layout_hei
+            android:layout_height="300dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndO
