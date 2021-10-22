@@ -61,4 +61,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView
-            android:id="@+i
+            android:id="@+id/chart_view"
+            android:layout_width="match_parent"
+            android:layout_hei
