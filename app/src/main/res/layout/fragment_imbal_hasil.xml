@@ -80,4 +80,7 @@
             app:layout_constraintTop_toBottomOf="@+id/chart_view"
             android:checkedButton="@id/rb_1y">
 
-            <RadioBut
+            <RadioButton
+                android:id="@+id/rb_1w"
+                android:layout_width="wrap_content"
+                android:layout_height="
