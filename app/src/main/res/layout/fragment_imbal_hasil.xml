@@ -83,4 +83,6 @@
             <RadioButton
                 android:id="@+id/rb_1w"
                 android:layout_width="wrap_content"
-                android:layout_height="
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transpa
