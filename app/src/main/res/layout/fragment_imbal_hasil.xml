@@ -97,4 +97,6 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/radio_selector"
                 android:button="@android:color/transparent"
-                android:t
+                android:text="1M"
+                android:textAlignment="center"
+                android:textColor="@drawabl
