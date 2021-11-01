@@ -103,4 +103,6 @@
                 android:layout_margin="4dp"/>
 
             <RadioButton
-             
+                android:id="@+id/rb_1y"
+                android:layout_width="wrap_content"
+                
