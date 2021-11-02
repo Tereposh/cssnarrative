@@ -109,4 +109,6 @@
                 android:background="@drawable/radio_selector"
                 android:button="@android:color/transparent"
                 android:text="1Y"
-                androi
+                android:textAlignment="center"
+                android:textColor="@drawable/radio_text_color"
+                android:layout_
