@@ -111,4 +111,8 @@
                 android:text="1Y"
                 android:textAlignment="center"
                 android:textColor="@drawable/radio_text_color"
-                android:layout_
+                android:layout_margin="4dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_3y"
+                androi
