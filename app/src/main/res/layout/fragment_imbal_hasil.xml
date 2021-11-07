@@ -128,4 +128,6 @@
                 android:id="@+id/rb_5y"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/rad
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:text="5
