@@ -132,4 +132,8 @@
                 android:button="@android:color/transparent"
                 android:text="5Y"
                 android:textAlignment="center"
-                android:textColor="@drawable/radio_
+                android:textColor="@drawable/radio_text_color"
+                android:layout_margin="4dp"/>
+
+            <RadioButton
+                android
