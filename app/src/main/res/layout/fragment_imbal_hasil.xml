@@ -130,4 +130,6 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/radio_selector"
                 android:button="@android:color/transparent"
-                android:text="5
+                android:text="5Y"
+                android:textAlignment="center"
+                android:textColor="@drawable/radio_
