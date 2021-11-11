@@ -144,4 +144,8 @@
                 android:text="10Y"
                 android:textAlignment="center"
                 android:textColor="@drawable/radio_text_color"
-                android:layout_marg
+                android:layout_margin="4dp"/>
+
+            <RadioButton
+                android:id="@+id/rb_all"
+                android:layout_widt
