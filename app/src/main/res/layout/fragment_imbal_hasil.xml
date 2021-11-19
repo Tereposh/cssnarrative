@@ -154,4 +154,8 @@
                 android:button="@android:color/transparent"
                 android:text="All"
                 android:textAlignment="center"
-                android:textColor="
+                android:textColor="@drawable/radio_text_color"
+                android:layout_margin="4dp"/>
+        </RadioGroup>
+
+        <a
