@@ -168,4 +168,6 @@
             app:layout_constraintTop_toBottomOf="@+id/radio_group">
 
             <TextView
-                android:
+                android:id="@+id/tv_name1"
+                android:layout_width="100dp"
+                android:layout_height="match_pa
