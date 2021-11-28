@@ -186,4 +186,6 @@
             <TextView
                 android:id="@+id/tv_name2"
                 android:layout_width="100dp"
-                android:layout_
+                android:layout_height="match_parent"
+                android:background="@drawable/box_light_purple"
+                app:layout_constraintBo
