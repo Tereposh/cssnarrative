@@ -196,4 +196,9 @@
                 tools:text="Cipta Dana Cash"
                 android:maxLines="3"
                 android:textStyle="bold"
-                android:textSize="12sp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_name3"
+                android:layout_width="100dp"
+  
