@@ -216,4 +216,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-      
+            android:id="@+id/jenis_reksa_dana"
+            android:layout_width="match_parent"
+            android:
