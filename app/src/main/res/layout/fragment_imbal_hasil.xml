@@ -218,4 +218,6 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/jenis_reksa_dana"
             android:layout_width="match_parent"
-            android:
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="paren
