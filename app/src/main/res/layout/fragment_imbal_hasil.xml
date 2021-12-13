@@ -228,4 +228,6 @@
                 android:id="@+id/tv_jenisReksaDana"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                andr
+                android:text="Jenis reksa dana"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout
