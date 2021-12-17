@@ -235,4 +235,6 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/
+                android:id="@+id/tv_jenisReksaDana1"
+                android:layout_width="100dp"
+                android:layo
