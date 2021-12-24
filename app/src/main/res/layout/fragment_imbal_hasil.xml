@@ -247,4 +247,5 @@
                 tools:text="Saham" />
 
             <TextView
-                an
+                android:id="@+id/tv_jenisReksaDana2"
+                android:layout_width="100dp"
