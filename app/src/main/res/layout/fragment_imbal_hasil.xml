@@ -270,4 +270,6 @@
                 tools:text="Saham" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-  
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/imba_hasil"
+     
