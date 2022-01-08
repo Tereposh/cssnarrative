@@ -290,4 +290,7 @@
                 android:text="Imbal hasil" />
 
             <TextView
-                android:id="@+id/tv_
+                android:id="@+id/tv_imbaHasil1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+ 
