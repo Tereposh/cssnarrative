@@ -314,4 +314,6 @@
 
             <TextView
                 android:id="@+id/tv_imbaHasil3"
-                android:layout_width
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@drawa
