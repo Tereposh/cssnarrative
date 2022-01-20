@@ -316,4 +316,6 @@
                 android:id="@+id/tv_imbaHasil3"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:background="@drawa
+                android:background="@drawable/box_light_blue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_cons
