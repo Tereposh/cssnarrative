@@ -326,4 +326,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            a
+            android:id="@+id/dana_kelolaan"
+            android:layout_width="match_parent"
+            android:layout_height="50d
