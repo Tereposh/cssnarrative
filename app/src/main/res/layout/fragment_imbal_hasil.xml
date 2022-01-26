@@ -328,4 +328,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/dana_kelolaan"
             android:layout_width="match_parent"
-            android:layout_height="50d
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+      
