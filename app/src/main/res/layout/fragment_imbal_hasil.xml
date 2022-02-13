@@ -354,4 +354,7 @@
                 app:layout_constraintHorizontal_bias="0.05"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv_danaKelolaan"
-  
+                tools:text="Saham" />
+
+            <TextView
+                android:id="@+id/
