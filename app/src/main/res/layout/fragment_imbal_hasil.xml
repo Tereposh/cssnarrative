@@ -357,4 +357,6 @@
                 tools:text="Saham" />
 
             <TextView
-                android:id="@+id/
+                android:id="@+id/tv_danaKelolaan2"
+                android:layout_width="100dp"
+                android:layout_height="wra
