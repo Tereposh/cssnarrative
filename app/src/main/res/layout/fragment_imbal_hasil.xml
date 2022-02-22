@@ -370,4 +370,6 @@
             <TextView
                 android:id="@+id/tv_danaKelolaan3"
                 android:layout_width="100dp"
-                android:lay
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_light_blue"
+             
