@@ -368,4 +368,6 @@
                 tools:text="Pasar Uang" />
 
             <TextView
-                androi
+                android:id="@+id/tv_danaKelolaan3"
+                android:layout_width="100dp"
+                android:lay
