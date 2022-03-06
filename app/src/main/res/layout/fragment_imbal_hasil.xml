@@ -381,4 +381,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/min_pemb
+            android:id="@+id/min_pembelian"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin
