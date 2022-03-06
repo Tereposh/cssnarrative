@@ -380,4 +380,5 @@
                 tools:text="Saham" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-  
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/min_pemb
