@@ -384,4 +384,6 @@
             android:id="@+id/min_pembelian"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_margin
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_const
