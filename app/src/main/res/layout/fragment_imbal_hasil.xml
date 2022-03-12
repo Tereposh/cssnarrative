@@ -391,4 +391,6 @@
 
             <TextView
                 android:id="@+id/tv_minPembelian"
-                android:layout_width="wrap
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constr
