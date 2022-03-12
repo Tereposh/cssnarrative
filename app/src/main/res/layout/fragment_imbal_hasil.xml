@@ -393,4 +393,6 @@
                 android:id="@+id/tv_minPembelian"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constr
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app
