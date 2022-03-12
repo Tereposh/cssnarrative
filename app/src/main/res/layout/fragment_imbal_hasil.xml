@@ -389,4 +389,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/dana_kelolaan">
 
-    
+            <TextView
+                android:id="@+id/tv_minPembelian"
+                android:layout_width="wrap
