@@ -400,4 +400,6 @@
                 android:text="Min. Pembelian" />
 
             <TextView
-                android:id
+                android:id="@+id/tv_minPembelian1"
+                android:layout_width="100dp"
+                android:layout_heigh
