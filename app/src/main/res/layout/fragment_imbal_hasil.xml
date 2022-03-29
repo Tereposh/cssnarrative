@@ -415,4 +415,5 @@
                 android:id="@+id/tv_minPembelian2"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
- 
+                android:background="@drawable/box_light_purple"
+                app:layout_constra
