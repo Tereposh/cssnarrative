@@ -412,4 +412,7 @@
                 tools:text="Saham" />
 
             <TextView
-                android:id="@+id/tv_minPembel
+                android:id="@+id/tv_minPembelian2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+ 
