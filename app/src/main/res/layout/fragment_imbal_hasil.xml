@@ -445,4 +445,6 @@
             app:layout_constraintTop_toBottomOf="@id/min_pembelian">
 
             <TextView
-                android:id="@+id/tv_jangkaWa
+                android:id="@+id/tv_jangkaWaktu"
+                android:layout_width="wrap_content"
+                android:layout_height=
