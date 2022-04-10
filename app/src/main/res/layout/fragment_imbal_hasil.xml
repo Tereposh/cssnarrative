@@ -455,4 +455,6 @@
                 android:text="Jangka waktu" />
 
             <TextView
-                an
+                android:id="@+id/tv_jangkaWaktu1"
+                android:layout_width="100dp"
+                android:
