@@ -463,4 +463,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.05"
                 app:layout_constraintStart_toStartOf="parent"
-                app:lay
+                app:layout_constraintTop_toBottomOf="@+id/tv_jangkaWaktu"
+                tools:text="Saham" />
+
+            <TextView
+ 
