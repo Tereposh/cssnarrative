@@ -467,4 +467,6 @@
                 tools:text="Saham" />
 
             <TextView
- 
+                android:id="@+id/tv_jangkaWaktu2"
+                android:layout_width="100dp"
+              
