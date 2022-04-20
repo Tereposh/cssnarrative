@@ -469,4 +469,5 @@
             <TextView
                 android:id="@+id/tv_jangkaWaktu2"
                 android:layout_width="100dp"
-              
+                android:layout_height="wrap_content"
+                android:background="@drawable/
