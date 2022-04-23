@@ -472,4 +472,6 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/box_light_purple"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+            
