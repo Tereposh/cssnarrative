@@ -480,4 +480,6 @@
             <TextView
                 android:id="@+id/tv_jangkaWaktu3"
                 android:layout_width="100dp"
-        
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_light_blue"
+                app
