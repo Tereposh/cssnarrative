@@ -490,4 +490,6 @@
                 tools:text="Saham" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constr
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/tingkat_risiko"
+            android:layout
