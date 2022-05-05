@@ -499,4 +499,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/jangka_waktu">
 
-           
+            <TextView
+                android:id="@+id/tv_tingkatRisiko"
+                android
