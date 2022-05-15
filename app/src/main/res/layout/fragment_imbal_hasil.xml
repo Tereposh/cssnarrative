@@ -523,4 +523,6 @@
 
             <TextView
                 android:id="@+id/tv_tingkatRisiko2"
-                andro
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:ba
