@@ -581,4 +581,6 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/box_light_purple"
-                app:layout_constraintBottom_toBottomOf="p
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constr
