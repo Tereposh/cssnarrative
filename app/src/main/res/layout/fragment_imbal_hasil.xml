@@ -588,4 +588,6 @@
                 tools:text="Pasar Uang" />
 
             <TextView
-            
+                android:id="@+id/tv_peluncuran3"
+                android:layout_width="100dp"
+                a
