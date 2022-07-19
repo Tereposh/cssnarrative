@@ -590,4 +590,6 @@
             <TextView
                 android:id="@+id/tv_peluncuran3"
                 android:layout_width="100dp"
-                a
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_light_blue"
+ 
