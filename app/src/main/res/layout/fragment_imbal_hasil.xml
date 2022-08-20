@@ -613,4 +613,6 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btn_secondary"
-              
+                android:backgroundTint="@null"
+                android:text="Detail"
+                android:tex
