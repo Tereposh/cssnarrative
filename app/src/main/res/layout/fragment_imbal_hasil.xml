@@ -617,4 +617,6 @@
                 android:text="Detail"
                 android:textAllCaps="false"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_const
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_c
