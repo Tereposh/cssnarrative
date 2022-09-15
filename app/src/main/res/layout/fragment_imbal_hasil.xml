@@ -636,4 +636,7 @@
             <android.widget.Button
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/
+                android:background="@drawable/btn_secondary"
+                android:text="Detail"
+                android:textAllCaps="false"
+   
