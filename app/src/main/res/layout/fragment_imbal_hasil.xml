@@ -639,4 +639,5 @@
                 android:background="@drawable/btn_secondary"
                 android:text="Detail"
                 android:textAllCaps="false"
-   
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_
