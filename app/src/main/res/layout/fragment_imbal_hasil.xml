@@ -648,4 +648,6 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-  
+            android:id="@+id/buy_btn_group"
+            android:layout_width="match_parent"
+            android:l
