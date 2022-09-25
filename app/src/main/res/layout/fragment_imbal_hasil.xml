@@ -650,4 +650,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/buy_btn_group"
             android:layout_width="match_parent"
-            android:l
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+  
