@@ -658,4 +658,6 @@
             android:layout_marginBottom="16dp">
 
             <android.widget.Button
-                android:
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                androi
