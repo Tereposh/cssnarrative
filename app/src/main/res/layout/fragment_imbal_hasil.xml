@@ -660,4 +660,6 @@
             <android.widget.Button
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                androi
+                android:background="@drawable/btn_primary"
+                android:text="Beli"
+                android:textAllCaps="fals
