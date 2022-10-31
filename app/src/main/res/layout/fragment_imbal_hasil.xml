@@ -671,4 +671,6 @@
                 android:textColor="@color/white"/>
 
             <android.widget.Button
-                android:layout_widt
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:
