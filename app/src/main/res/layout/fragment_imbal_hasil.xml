@@ -673,4 +673,6 @@
             <android.widget.Button
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:
+                android:background="@drawable/btn_primary"
+                android:text="Beli"
+                andr
