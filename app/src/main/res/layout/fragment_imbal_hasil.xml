@@ -695,4 +695,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:textColor="@color/white"/>
 
-        </androidx.constraintlayou
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
