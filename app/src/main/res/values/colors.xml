@@ -13,4 +13,7 @@
     <color name="green">#788D68</color>
     <color name="purple">#67568B</color>
     <color name="blue">#789FBB</color>
-    <color name="light_gray">#EAEAEA
+    <color name="light_gray">#EAEAEA</color>
+    <color name="primary">#6DA14F</color>
+
+</resources>
